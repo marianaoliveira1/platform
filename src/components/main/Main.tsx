@@ -21,6 +21,21 @@ const Main: React.FC = () => {
                     <img src={logoImg} alt='imagem de logo' />
                 </div> 
             </div>
+            <div className="caixas-text">
+                <p>
+                Testnet Metrics
+                </p>
+                <div className="caixas">
+                    <div className="primeira">
+                        <h3>
+                        Participation Payout
+                        </h3>
+                        <p>
+                            $84612056
+                        </p>
+                    </div>
+                </div>
+            </div>
           </Container>
       </div>
   );

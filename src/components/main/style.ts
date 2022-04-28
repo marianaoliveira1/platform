@@ -32,4 +32,21 @@ export const Container = styled.div`
             cursor: pointer;
         }
     }
+
+    .caixas{
+        background: var(--light-gray);
+        height: 10rem;
+        width: 18rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 32px;
+
+    }
+
+    p {
+        font-size: 2rem;
+        color: var(--white);
+    }
+
 `;
