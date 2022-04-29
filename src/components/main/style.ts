@@ -1,12 +1,16 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    * {
+        margin: 15px;
+    }
     .main {
         justify-content: space-between;
         display: flex;
         align-items: center;
-        margin: 0 1.5rem;
+
         position: relative;
+        gap: 1rem;
     }
 
     h1 {
@@ -33,20 +37,31 @@ export const Container = styled.div`
         }
     }
 
+    .container-caixas {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
     .caixas{
-        background: var(--light-gray);
+        background: var(--gray-background);
         height: 10rem;
         width: 18rem;
-        display: flex;
+        display: grid;
         justify-content: center;
         flex-direction: column;
         padding: 0 32px;
+        column-gap: 30px;
 
+    }
+    h3 {
+        color: var(--light-gray) ;
     }
 
     p {
         font-size: 2rem;
         color: var(--white);
+        margin: 10px;
     }
 
 `;

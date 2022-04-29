@@ -5,7 +5,7 @@ import { Container } from './style';
 
 const Main: React.FC = () => {
   return (
-      <div className="main">
+      <div className="body">
           <Container>
           <div className="main">
                 <div className="texto">
@@ -21,18 +21,48 @@ const Main: React.FC = () => {
                     <img src={logoImg} alt='imagem de logo' />
                 </div> 
             </div>
-            <div className="caixas-text">
-                <p>
+            <p>
                 Testnet Metrics
                 </p>
-                <div className="caixas">
-                    <div className="primeira">
-                        <h3>
-                        Participation Payout
-                        </h3>
-                        <p>
-                            $84612056
-                        </p>
+            <div className="container-caixas">
+                <div className="total-caixas">
+                    <div className="caixas">
+                        <div className="primeira">
+                            <h3>Participation Payout </h3>
+                            <p>
+                                $84612056
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="total-caixas">
+                    <div className="caixas">
+                        <div className="primeira">
+                            <h3>Active Validators </h3>
+                            <p>
+                               25
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="total-caixas">
+                    <div className="caixas">
+                        <div className="primeira">
+                            <h3>Block Heightt </h3>
+                            <p>
+                            528k
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="total-caixas">
+                    <div className="caixas">
+                        <div className="primeira">
+                            <h3>Memberships </h3>
+                            <p>
+                            3887
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
