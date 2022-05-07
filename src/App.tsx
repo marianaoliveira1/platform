@@ -1,4 +1,5 @@
 import Main from './components/main/Main';
+import Member from './components/Member/Main';
 import  GlobalStyles from './styles/global';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <GlobalStyles />
       <Main />
+      <Member />
     </>
   );
 }
