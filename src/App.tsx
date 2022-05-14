@@ -1,13 +1,15 @@
-import Main from './components/main/Main';
-import Member from './components/Member/Main';
+import Available from './components/Available';
+import Header from './components/Header';
+import Member from './components/Member';
 import  GlobalStyles from './styles/global';
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <Main />
+      <Header />
       <Member />
+      <Available />
     </>
   );
 }

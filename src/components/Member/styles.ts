@@ -3,11 +3,10 @@ import styled from "styled-components";
 export const Container = styled.div`
     * {
         padding-right: 10px;
-
     }
-    .main {
+    #main {
         justify-content: space-between;
-        display: inline-block;
+        display: flex;
         align-items: center;
 
         position: relative;
